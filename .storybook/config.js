@@ -1,7 +1,10 @@
-import { configure } from '@storybook/react';
+import { configure } from "@storybook/react";
+import "../src/components/styles/index.css";
+
+const req = require.context("../src/components", true, /.stories.js$/);
 
 function loadStories() {
-  require('../src/stories');
+    req.keys().forEach(filename => req(filename));
 }
 
 configure(loadStories, module);
