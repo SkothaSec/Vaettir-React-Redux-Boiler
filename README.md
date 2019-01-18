@@ -115,9 +115,8 @@ yarn start
 
 Christian Gorke – dev.cmgorke@gmail.com
 
-Follow me on [![Twitter][twitter-icon]][twitter-link]
-
-Check ourt my other repos on [![Github][github-icon]][github-link] 
+- Follow me on [![Twitter][twitter-icon]][twitter-link]
+- Check ourt my other repos on [![Github][github-icon]][github-link] 
 
 Distributed under the XYZ license. See `LICENSE` for more information.
 
