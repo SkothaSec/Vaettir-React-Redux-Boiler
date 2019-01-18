@@ -3,8 +3,8 @@ import React, { Component } from "react";
 // Custom Modules
 
 // Styles and SVG
-import "./App.css";
-import logo from "./logo.svg";
+import "./styles/App.css";
+import logo from "./styles/logo.svg";
 
 class App extends Component {
     constructor(props) {
