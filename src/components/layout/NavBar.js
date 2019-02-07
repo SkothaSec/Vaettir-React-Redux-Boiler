@@ -1,11 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 
 // Custom Modules
-import AppLayout from "./layout/AppLayout";
-// Styles and SVG
-import "../assets/styles/App.scss";
+import { NavBarContent } from '../content/AppContent';
 
-class App extends Component {
+// Styles and SVG
+import "../../assets/styles/NavBar.scss";
+
+
+class NavBar extends Component {
     constructor(props) {
         super(props);
 
@@ -16,16 +19,13 @@ class App extends Component {
 
     componentDidMount() {
         console.log({
-            logOrigin: "App.js: componentDidMount()",
+            logOrigin: "NavBar.js: componentDidMount()",
             errorMessage: this.state.errorMessage
         });
     }
 
     renderContent() {
         return (
-            <div className="App">
-                <AppLayout />
-            </div>
         );
     }
     render() {
@@ -33,4 +33,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default NavBar;
